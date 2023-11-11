@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s ;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: cursive;
+    color: black;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.top-container{
+    background-image: url(https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    font-size: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 2px;
+}
+.text-area .text{
+    margin: 50px 5%;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+
+.active{
+    background-color: black;
+}
+.active  ul li a{
+    color: white;
+}
